@@ -18,7 +18,7 @@ const DashboardCard = ({ data }) => {
           <div>
             <h3>🎁 Rewards & Unlockables</h3>
             <ul>
-              <li>🏅 Bronze Badge – Unlock at 1,000 BDT</li>
+              <li>🏅 Bronze Badge – Unlock at {data?.donations} BDT</li>
               <li>🥈 Silver Badge – Unlock at 2,000 BDT</li>
               <li>🥇 Gold Badge – Unlock at 3,000 BDT</li>
               <li>🎉 Exclusive Merch – Unlock at 5,000 BDT</li>

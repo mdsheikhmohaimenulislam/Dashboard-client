@@ -10,28 +10,32 @@ function App() {
     const name = form.name.value;
     const email = form.email.value;
 
+    toast.success("Successfully Login", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
     if (name && email) {
-      toast.success("Successfully Login", {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: false,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-        transition: Bounce,
-      });
       // Reset the form
       form.reset();
-      navigate("dashboard");
     }
+    
+      // Delay navigation until after toast
+    setTimeout(()=>{
+      navigate("dashboard");
+    },3000)
   };
 
   return (
     <>
       <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Login now!</h1>
           </div>
