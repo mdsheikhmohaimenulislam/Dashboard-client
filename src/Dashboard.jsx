@@ -15,7 +15,7 @@ export default function Dashboard() {
       });
   }, []);
 
-  // if (!userData) return <div className="flex justify-center mt-60 "><span className="loading loading-dots loading-lg"></span></div>;
+  if (!userData) return <div className="flex justify-center mt-60 "><span className="loading loading-dots loading-lg"></span></div>;
 
   console.log(userData);
 
