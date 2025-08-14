@@ -1,4 +1,4 @@
-<!-- # 🚀 Donations
+# 🚀 Donations
 A simple and clean dashboard that displays intern details, referral code, total donations raised, and unlockable rewards — designed to track performance and engagement in a user-friendly interface.
 
 # Setup Instructions
@@ -20,4 +20,4 @@ A simple and clean dashboard that displays intern details, referral code, total 
 
 
 ## 🌐 [Project live link](https://dashboard-client-theta.vercel.app/)
-## [GitHub Repo](https://github.com/mdsheikhmohaimenulislam/Dashboard-client) -->
+## [GitHub Repo](https://github.com/mdsheikhmohaimenulislam/Dashboard-client)
