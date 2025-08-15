@@ -6,7 +6,7 @@ const DashboardCard = ({ data }) => {
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body">
           <p>
-            {/* <strong>Name:</strong> {data?.name} */}
+            <strong>Name:</strong> {data?.name}
           </p>
           <p>
             <strong>Referral Code:</strong> {data?.referralCode}
