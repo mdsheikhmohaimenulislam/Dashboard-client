@@ -5,7 +5,7 @@ A simple and clean dashboard that displays intern details, referral code, total 
 
 1. Clone the repo:
    git clone 
-
+ 
 2. Install dependencies:
    npm install
 
